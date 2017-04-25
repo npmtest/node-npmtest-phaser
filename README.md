@@ -1,6 +1,6 @@
 # npmtest-phaser
 
-#### test coverage for  [phaser (v2.6.2)](http://phaser.io)  [![npm package](https://img.shields.io/npm/v/npmtest-phaser.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-phaser) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-phaser.svg)](https://travis-ci.org/npmtest/node-npmtest-phaser)
+#### basic test coverage for  [phaser (v2.6.2)](http://phaser.io)  [![npm package](https://img.shields.io/npm/v/npmtest-phaser.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-phaser) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-phaser.svg)](https://travis-ci.org/npmtest/node-npmtest-phaser)
 
 #### A fast, free and fun HTML5 Game Framework for Desktop and Mobile web browsers.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-phaser/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-phaser/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-phaser/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-phaser/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-phaser/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-phaser/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-phaser/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-phaser/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-phaser/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-phaser/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-phaser/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-phaser/build/coverage.html/index.html)
 
@@ -109,7 +109,8 @@
         ]
     },
     "typings": "./typescript/typings.json",
-    "version": "2.6.2"
+    "version": "2.6.2",
+    "bin": {}
 }
 ```
 
